@@ -14,4 +14,11 @@ function mysteryOperation ()
 	}
 }
 
+// these are the important variables 
+const numberOfOperations = 20; 
+const daysOnSuccess = 13; 
+const daysOnFailure = 1; 
+const daysOnAttendance = 3; 
+
+let daysEarned = 0; 
 
