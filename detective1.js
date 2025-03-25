@@ -35,4 +35,4 @@ for (let i = 0; i < numberOfOperations; i++){
 	}
 }
 
-comsole.log(daysEarned); 
+console.log(daysEarned); 
