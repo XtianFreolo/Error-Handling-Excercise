@@ -22,3 +22,17 @@ const daysOnAttendance = 3;
 
 let daysEarned = 0; 
 
+for (let i = 0; i < numberOfOperations; i++){
+	try{
+		mysteryOperation();
+		daysEarned += daysOnSuccess; 
+	}
+	catch (error){
+		daysEarned += daysOnFailure;
+	}
+	finally{
+		daysEarned += daysOnAttendance;
+	}
+}
+
+comsole.log(daysEarned); 
